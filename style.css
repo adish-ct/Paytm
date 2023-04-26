@@ -1,0 +1,765 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter,sans-serif;
+}
+
+
+/* Navbar Header */
+
+.nav-item{
+    display: flex;
+    color: #000;
+    height: 92px;
+    font-family:  Inter,sans-serif;
+    align-items: center;
+    position: relative;
+}
+.nav-logo-item{
+    max-width: 180px;
+    margin-left: 68px;
+    margin-top: 3px;
+}
+.nav-logo{
+ 
+}
+ul li a{
+    text-decoration: none; 
+    color: black;
+    font-size: 17px;
+    font-weight: 600px;   
+}
+.nav-text{
+    font-size: 18px;
+    font-weight: 400;
+}
+ul li{
+    list-style: none;
+}
+
+
+.nav-content{
+    margin-left: 68px;
+    width: 55rem;
+}
+.nav-content ul li{
+    display: inline;
+    padding: 15px;   
+}
+
+
+/* albrin  */
+
+.nav-sign {
+    background-image: url('navbar/lightblue.jpg');
+    height: 37px;
+    width: 121px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.nav-sign:hover {
+    background-image: url('navbar/1.jpg');
+}
+
+/* albrin  */
+
+/* header section */
+.header-section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    background-color: #F2F3F5;
+    justify-content: center;  
+    box-shadow: 0px 10px 16px rgba(194, 192, 192, 0.5) inset;
+}
+.header-text{
+  
+   font-weight: 200;
+   font-family: Inter,sans-serif;
+   font-size: 14.5px;
+   word-spacing: 1.5px;
+   margin-bottom: 10px;
+}
+
+.nav-sign{
+    margin-right: 92px;
+}
+
+.nav-button{
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+}
+/* header section ended */
+
+/* download section */
+
+.download-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: start space-between;
+    height: 87vh;
+    margin-bottom: 85px;
+}
+         /* left side */
+
+.download-left-section{
+    font-family: Inter,sans-serif;
+    margin-top: 128px;
+    margin-left: 50px;
+}
+.download-item.logo{
+    margin-top: 128px;
+ 
+
+}
+
+.download-logo{
+    width: 80px;
+    border-radius: 16px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;}
+.download-item-header{
+    margin-top: 48px;
+
+}
+
+.download-item-content{
+    font-size: 20px;
+    line-height: 30px;
+    width: 485px;
+    color: #161515;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.download-button{
+
+}
+
+.download-item-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: Inter,sans-serif;
+    height: 44px;
+    width: 251.66px;
+    border: 1px solid black;
+    border-radius: 44px;
+    padding: 0 24px;
+}
+
+            /* right section */
+.download-right-section{
+    position: relative;
+
+}
+.dowload-image{  
+    width: 528px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+.download-item-image{
+    width: 528px;
+    height: auto;
+}
+
+
+
+/* Recharge section  */
+
+.recharge-section{
+    background-color: rgb(0,187,243);
+    color: white;
+    height: 382px;
+    margin: 65px 0 0 0;
+    padding: 65px 0 65px 0;
+    
+}
+.recharge-text{
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.recharge-group{
+    position: relative;  
+    display: flex; 
+    justify-content: space-evenly;
+    width: 100%;
+    height: 151px;   
+    margin-top: 42px;  
+}
+.card-item-recharge{
+    width: 125.5px;
+    height: 151px;
+    padding-left: 11px;
+}
+.card-image-item{
+    width: 64px;
+    margin-bottom: 17px;
+}
+
+.recharge-desc{
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+/* recharge section end */
+
+/* booking section */
+.booking-section{
+    background-color: #0f4a8a;
+    color: white;
+    height: 357px;
+    padding: 65px 0 65px 0;
+}
+
+/* payment instrument section */
+
+.payment-desc{
+    background-color:#f5f7fa;
+    
+}
+.payment-item-text{
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+.payment-desc-item-header{
+    height: 210px;
+    padding: 118px 0 30px 95px
+}
+
+.main-content{
+    height: 620px;
+    width: 1170px;
+    background-color: white;
+    padding: 80px 50px 80px 115px;
+    margin: 0 auto;
+    border-radius: 12px;
+
+}
+.main-padding{
+    margin-top: 50px;
+}
+/* main content - right section */
+
+
+.main-item-image{
+    width: 539px;
+    height: 460px;
+}
+.main-content-group{
+    height: 460px;
+    width: 1005px;
+    display: flex;
+    justify-content: space-between;
+}
+.content-left-section{
+    margin-top: 40px;
+    height: 460px;
+    width: 452.25px;
+}
+.content-logo-image{
+    width: 80px;
+    height: 77px;
+}
+.content-logo-section{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.content-logo-text{
+    margin: 10px;
+    width: 90px;
+}
+.content-item-header{
+    width: 450px;
+    margin-top: 48px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.content-item-desc{
+    height: 106;
+    padding: 24px 0 30px 0;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 25px;
+}
+.content-item-image-wallet{
+    width: 539px;
+    height: 460px;
+}
+.content-right-section{
+    width: 539px;
+    height: 460px;
+}
+
+/* third section  */
+.content-item-logo2 .content-logo2-image{
+    width: 183.32px;
+}
+.content-logo-section2{
+    width: 250px;
+}
+
+.content-item-image-postpaid{
+    width: 433px;
+    height: 500px;
+}
+.content-right-postpaid{
+    margin-left: 50px;
+}
+.content-item-button-load{
+    height: 49px;
+    width: 200px;
+}
+.download-postpaid-button{
+    height: 49px;
+    width: 163px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: #002970;
+    color: white;
+    font-size: 17px;
+}
+.background-color{
+    background-color: #f5f7fa;
+}
+.content-item-cashback{
+    height: 700px;
+    width: 566px;
+    border-radius: 20px;
+    padding: 70px 64px 0 64px;
+    background-color: white;
+}
+.content-bank-logo{
+    display: flex;
+    width: 185px;
+    height: 77px;
+    margin-bottom: 28px;
+}
+.bank-logo{
+    align-items: end;
+    width: 185px;
+}
+.content-bank-head{
+    font-size: 35px;
+    width: 463px;
+}
+.content-bank-desc{
+    width: 463px;
+    margin: 20px 0 20px 0;
+    line-height: 30px;
+}
+
+.content-bank-img{
+    height: 296px;
+    width: 463px;
+}
+.bank-sbi-logo{
+    margin-top: 50px;
+    width: 196px;
+    height: 20px;
+}
+.content-bank-desc{
+    font-size: 20px;
+}
+.section-content-cashback{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    width: 1170px;
+    margin: 0 auto;
+      
+}
+.content-financial-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 120px;
+    padding-top: 110px;
+    
+    
+}
+
+.content-financial-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+}
+
+.content-financial-description{
+    max-width: 500px;
+    font-size: 19px;
+    line-height: 25px;
+}
+.payment-image{
+    height: 35px;
+    width: 212px;
+    margin: 20px 0;
+
+}
+.content-financial-subhead{
+    font-size: 25px;
+    max-width: 400px;
+}
+.content-financial-header{
+    font-size: 32px;
+}
+.content-financial-image{
+    height: 499px;
+    width: 452px;
+    margin: 100px 100px 0 0;
+}
+/* PAYTM money */
+.content-money-right{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* .content-money-image{
+    height: 499px;
+    width: 452px;
+} */
+.content-money-subhead{
+    font-size: 25px;
+    max-width: 400px;
+    margin-top: 10px;
+}
+.content-money-description{
+    max-width: 550px;
+    font-size: 19px;
+    line-height: 25px;
+}
+.money-image{
+    height: auto;
+    width: 144.5px;
+    margin: 20px 0;
+
+}
+.content-money-image{
+    width: 450px;
+}
+.content-money-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f7fa;
+    padding-top: 80px;
+    margin-bottom: 100px;
+    
+}
+/* insurance section */
+.content-insurance-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background-color: white;
+    padding-top: 80px;
+   
+}
+.content-insurance-image{
+    width: 398.5px;
+}
+.insurance-image{
+    height: 54px;
+    width: 170px;
+}
+.content-money-left{
+    margin-bottom: 100px;
+}
+
+/* loan section */
+.content-loan-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f7fa;
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+.loan-logo-image{
+    width: 176.2px;
+}
+.content-loan-image{
+    width: 433px;
+}
+
+/*  business section  */
+
+.business-head-text{
+    font-size: 48px;
+    padding: 20px 0 30px 0;
+
+}
+.business-header{
+    background-color: white;
+}
+
+.third-main-section{
+    padding: 0 100px;
+}
+.business-online-left-section{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin: 100px 0 0 120px;
+}
+.online-image{
+    width: 433px;
+    
+}
+.container-business-online{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+    background-color: #f5f7fa;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.online-item-desc{
+    max-width: 450px;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.online-item-head{
+    font-size: 23px;
+    max-width: 400px;
+    margin-top: 10px;
+}
+/* shop payment */
+
+.container-shop-online{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+    background-color: #f5f7fa;
+    border-radius: 10px;
+    margin: 40px 0 100px 0;
+}
+.business-shop-left-section{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin: 60px 0 0 120px;
+}
+.shop-image{
+    width: 433px;
+}
+
+/* tool for business */
+.tool-buiseness-item-head{
+    font-size: 24px;
+    max-width: 450px;
+}
+.tool-buseiness-header{
+    margin: 180px 0 80px 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.tool-item-img{
+    width: 240px;
+}
+.tool-item-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.too-item-header{
+    font-size: 27px;
+    max-width: 250px;
+    margin: 20px 0;
+}
+.tool-item-desc{
+    font-size: 18px;
+    max-width: 230px;
+    word-spacing: 2px;
+    font-weight: 100;
+}
+.container-tool-section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+.tool-link{
+    font-weight: 700;
+    font-size: 14px;
+}
+.paytm-money-right-logoimage{
+    width: 145px;
+}
+.paytm-money-logimage{
+    width: 150px;
+}
+.paytm-money-item-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 100px;
+    min-width: 180px;
+    max-width: 200px px;
+    line-height: 20px;
+    margin-right: 50px;
+}
+.paytm-money-right-group{
+    background-color: #00baf2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5px;
+    border-radius: 8px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+}
+.paytm-money-right{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 50px;
+}
+.paytm-money-group{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.paytm-money-cashback{
+    display: flex;
+    justify-content: center;
+
+}
+.paytm-money-left-desc{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 30px;
+    
+}
+.paytm-money-link{
+    color: #00baf2;
+    font-size: 15px;
+}
+.container-paytm-money{
+    padding: 80px 0 30px 0;
+}
+.paytm-money-travel-image{
+    width: 150px;
+}
+.paytm-money-travel-logoimage{
+    width: 72px;
+    margin-left: 5px;
+    
+}
+.travel-text-right{
+    display: flex;
+    margin-left: 5px;
+    
+}
+.paytm-money-travel-desc{
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 5px;
+    margin-right: 40px;
+    min-width: 100px;
+}
+.paytm-travel-group{
+    
+   
+}
+
+/* footer */
+footer{
+    background-color: #F2F3F5;
+    
+}
+.container-footer{
+    
+}
+.footer-appstore-image{
+    width: 160px;
+}
+.footer-playstore-image{
+    width: 179px;
+}
+.footer-top-item-text{
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 230px;
+}
+.footer-top-left-group{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+.footer-item-image{
+    width: 25px;
+}
+.footer-facebook-image{
+    width: 12px;
+}
+.footer-top-right-group{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    align-items: center;
+}
+.footer-top-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 50px;
+    border-bottom: 1px solid rgb(201, 196, 196);
+}
+
+.footer-bottom-part{
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   padding: 0 30px;
+}
+.footer-bottom-line{
+    border-bottom: 1px solid black;
+}
+.footer-bottom-content{
+    width:100%;
+} 
+
+.footer-bottom-content ::after{
+    padding-left: 10px;
+    width: 100px;
+
+}
+
+.footer-space{
+    padding: 15px;
+}
+.footer-bottom-content{
+    font-size: 14px;
+}
+.span-text{
+    margin: 0 0px 0 0px;
+}
+.footer-bottom-group{
+    margin: 60px 0 0 0;
+    padding-bottom: 150px;
+}
